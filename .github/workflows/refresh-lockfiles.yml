@@ -91,7 +91,7 @@ jobs:
 
       - name: Create Pull Request
         id: cpr
-        uses: peter-evans/create-pull-request@18f90432bedd2afd6a825469ffd38aa24712a91d
+        uses: peter-evans/create-pull-request@2b011faafdcbc9ceb11414d64d0573f37c774b04
         with:
           token: ${{ steps.generate-token.outputs.token }}
           commit-message: Updated environment lockfiles
